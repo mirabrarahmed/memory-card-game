@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.07a299aa.css",
+    "main.js": "/memory-card-game/static/js/main.71db9d9c.js",
+    "static/media/bloodseeker.png": "/memory-card-game/static/media/bloodseeker.93ea50529c72ef2e82f6.png",
+    "static/media/ember_spirit.png": "/memory-card-game/static/media/ember_spirit.c99cecf291d29fe31335.png",
+    "static/media/shadow_fiend.png": "/memory-card-game/static/media/shadow_fiend.cf7bb689c660310104d1.png",
+    "static/media/rubick.png": "/memory-card-game/static/media/rubick.8ffb8b1211745eb3aab9.png",
+    "static/media/wraith_king.png": "/memory-card-game/static/media/wraith_king.730b8f6f0b89f0dea666.png",
+    "static/media/night_stalker.png": "/memory-card-game/static/media/night_stalker.616b0e172b8409b2c6af.png",
+    "static/media/invoker.png": "/memory-card-game/static/media/invoker.463dd978a117a0648fec.png",
+    "static/media/faceless_void.png": "/memory-card-game/static/media/faceless_void.3b8211af93fcf73c009a.png",
+    "index.html": "/memory-card-game/index.html",
+    "main.07a299aa.css.map": "/memory-card-game/static/css/main.07a299aa.css.map",
+    "main.71db9d9c.js.map": "/memory-card-game/static/js/main.71db9d9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a299aa.css",
+    "static/js/main.71db9d9c.js"
+  ]
+}
