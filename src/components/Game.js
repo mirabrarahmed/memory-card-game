@@ -16,7 +16,9 @@ export const Game = () => {
         handleCard(cardName)
         setScore(score + 1)
     }else{
-        sethighScore(score)
+        if(score > highScore){
+            sethighScore(score)
+        }
         setMemoryCard([])
         setScore(0)
     }
