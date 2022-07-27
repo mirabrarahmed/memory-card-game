@@ -4,5 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Memory Card Game
 
-A game where if you click the same card twice, the game is over. It was build using React.
+A game where if you click the same card twice, the game is over. It was built using React.
 Try out the live [demo](https://mirabrarahmed.github.io/memory-card-game/)
