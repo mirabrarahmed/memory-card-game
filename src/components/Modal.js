@@ -2,7 +2,7 @@ import React from 'react'
 import '../Modal.css'
 
 
-const Modal = ({ setIsOpen, title, description, modbtn }) => {
+const Modal = ({ setIsOpen, title, description, modbtn, score, highScore }) => {
   return (
     <>
       <div className="darkBG" onClick={() => setIsOpen(false)} />
@@ -14,7 +14,9 @@ const Modal = ({ setIsOpen, title, description, modbtn }) => {
           <button className="closeBtn" onClick={() => setIsOpen(false)}>
           </button>
           <div className="modalContent">
-            {description}
+            {description}<br/>
+            {score && <div>Score: {score}<br/> High Score: {highScore}</div>}
+
           </div>
           <div className="modalActions">
             <div className="actionsContainer">
