@@ -80,7 +80,7 @@ export const CardContainer = ({handleGame, score, highScore}) => {
       
 
   return (
-    <div>
+    <div className='card-wrapper'>
         {
             cards.map(image => (
                 < Card image={image} key={image.title} handleGame={handleGame} />

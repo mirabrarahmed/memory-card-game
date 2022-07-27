@@ -8,6 +8,7 @@ export const Game = () => {
   const [highScore, sethighScore] = useState(0)  
   const [memoryCard, setMemoryCard] = useState([])
   const [isOpen, setIsOpen] = useState(true)
+  const [isOver, setIsOver] = useState(false)
 
   const handleCard = (cardName) => {
     setMemoryCard((prevMem => [...prevMem, cardName]))
@@ -23,12 +24,22 @@ export const Game = () => {
         }
         setMemoryCard([])
         setScore(0)
+        setIsOver(true)
     }
   }  
 
   return (
-    <div>
-        {isOpen && <Modal setIsOpen={setIsOpen} />}
+    <div className='main'>
+        {isOpen && <Modal 
+                      setIsOpen={setIsOpen}
+                      title="Memory Card Game"
+                      description="Pick a different picture everytime to win and test your memory. Be careful, choosing the same picture twice will lose you the game."
+                      modbtn="Close"  />}
+        {isOver && <Modal 
+                      setIsOpen={setIsOver}
+                      title="Game Over"
+                      description="You picked the same picture twice"
+                      modbtn="Close"  />}
         <Header score={score} highScore={highScore}/>
         <CardContainer handleGame={handleGame} score={score} highScore={highScore} />
     </div>

@@ -48,3 +48,12 @@ img {
   height: 300px;
   border-radius: 15px;
 }
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
